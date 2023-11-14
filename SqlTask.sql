@@ -1,16 +1,14 @@
 
 						--DDL Commands
 
+-- Create database knowlikes
 
-# Create database knowlikes
-
-	CREATE DATABASE knowlikes
-
-- To connect the database,
+	CREATE DATABASE knowlikes;
+-- To connect the database,
 
 	\c knowlikes
 
-- create the tables for users, posts, likes.
+-- create the tables for users, posts, likes;
 
   - users table=>
 	 CREATE TABLE users(userid SERIAL PRIMARY KEY NOT NULL, username VARCHAR NOT NULL);
